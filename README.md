@@ -11,20 +11,19 @@ It allows Cursor AI to automatically:
 - Query Prometheus metrics
 - Manage Grafana programmatically
 
-This is an advanced DevOps + AI integration project.
+This is an DevOps + AI integration project.
 
 ---
-
-# 📌 What You Will Learn
-
-✔ How Docker networking works  
-✔ How Prometheus scrapes metrics  
-✔ How Grafana connects to Prometheus  
-✔ How Grafana API works  
-✔ How MCP connects Cursor to external systems  
-✔ How to use AI to automate dashboard creation  
-
----
+📦 Project Structure
+grafana-mcp-cursor-integration/
+│
+├── docker-compose.yml
+├── prometheus/
+│   └── prometheus.yml
+├── cursor/
+│   └── mcp.json
+├── .env
+├── README.md
 
 # 🧠 Architecture Overview
 
@@ -117,7 +116,7 @@ admin123
 
 If prompted to change password, you may skip for now.
 
-🔑 STEP 4 — Create Grafana API Key (VERY IMPORTANT)
+🔑 STEP 4 — Create Grafana API Key 
 
 Cursor connects to Grafana using an API key.
 
@@ -333,35 +332,6 @@ docker compose down
 To remove volumes:
 
 docker compose down -v
-
-📦 Project Structure
-grafana-mcp-cursor-integration/
-│
-├── docker-compose.yml
-├── prometheus/
-│   └── prometheus.yml
-├── cursor/
-│   └── mcp.json
-├── .env
-├── README.md
-
-💡 Why This Project Is Powerful
-
-This demonstrates:
-
-AI + DevOps integration
-
-API automation
-
-Monitoring stack setup
-
-Docker networking
-
-Secure token usage
-
-Real-world platform engineering concept
-
-This is not a beginner project — this is interview-level.
 
 👨‍💻 Author
 
