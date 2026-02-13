@@ -1,4 +1,3 @@
-COMPLETE BEGINNER-FRIENDLY README.md
 # 🤖 Grafana + MCP + Cursor Integration Project
 
 This project demonstrates how to connect:
@@ -14,6 +13,7 @@ It allows Cursor AI to automatically:
 This is an DevOps + AI integration project.
 
 ---
+
 📦 Project Structure
 grafana-mcp-cursor-integration/
 │
@@ -26,8 +26,6 @@ grafana-mcp-cursor-integration/
 ├── README.md
 
 # 🧠 Architecture Overview
-
-
 
 Your Browser
 |
