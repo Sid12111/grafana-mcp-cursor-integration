@@ -65,13 +65,11 @@ docker compose version
 ---
 
 ## 🚀 STEP 1 — Clone or Download Project
-### Option A — Clone
+
 ```bash
 git clone https://github.com/Sid12111/grafana-mcp-cursor-integration.git
 cd grafana-mcp-cursor-integration
 ```
-
-### Option B — Download ZIP and extract.
 
 ---
 
