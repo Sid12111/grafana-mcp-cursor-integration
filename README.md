@@ -1,5 +1,3 @@
-# 🎨 Grafana + MCP + Cursor Integration
-
 ## 🤖 Grafana + MCP + Cursor Integration Project
 This project demonstrates how to connect:
 
